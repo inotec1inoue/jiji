@@ -1,0 +1,164 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="inotec.jiji"
+4    android:versionCode="1"
+5    android:versionName="1.0" > <!-- SDKの対応バージョン -->
+6    <uses-sdk
+6-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:54:5-43
+7        android:minSdkVersion="8"
+7-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:54:15-40
+8        android:targetSdkVersion="8" />
+8-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:54:5-43
+9
+10    <!-- バイブレーショントへのアクセス権限 -->
+11    <uses-permission android:name="android.permission.VIBRATE" />
+11-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:7:2-63
+11-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:7:19-60
+12    <!-- 連絡帳へのアクセス権限 -->
+13    <uses-permission android:name="android.permission.READ_CONTACTS" />
+13-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:9:2-69
+13-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:9:19-66
+14    <!-- 電話番号取得へのアクセス権限 -->
+15    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+15-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:11:2-72
+15-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:11:19-69
+16    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+16-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:12:2-74
+16-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:12:19-71
+17    <!-- SMSへのアクセス権限 -->
+18    <uses-permission android:name="android.permission.SEND_SMS" />
+18-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:14:2-64
+18-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:14:19-61
+19    <!-- アプリケーションの定義 　デフォルトでアイコンとアプリケーション名が定義されています -->
+20    <application
+20-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:17:5-51:23
+21        android:debuggable="true"
+22        android:icon="@drawable/jiji"
+22-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:18:52-81
+23        android:label="@string/app_name"
+23-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:17:18-50
+24        android:testOnly="true"
+25        android:theme="@android:style/Theme.Light" >
+25-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:18:9-51
+26
+27        <!-- GoogleMapのライブラリの利用を宣言 -->
+28        <uses-library android:name="com.google.android.maps" />
+28-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:21:6-61
+28-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:21:20-58
+29
+30        <!-- メインメニューアクティビティの定義 -->
+31        <activity
+31-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:24:9-33:20
+32            android:name="inotec.jiji.ui.ContactShowActivity"
+32-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:24:19-68
+33            android:label="@string/app_name"
+33-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:24:69-101
+34            android:screenOrientation="portrait" >
+34-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:24:102-138
+35
+36            <!-- インテントのフィルタ設定 -->
+37            <intent-filter>
+37-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:27:13-32:29
+38
+39                <!-- アクティビティをアプリケーションのメイン(開始画面) -->
+40                <action android:name="android.intent.action.MAIN" />
+40-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:29:17-69
+40-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:29:25-66
+41                <!-- ホーム画面から表示されるランチャーへの表示 -->
+42                <category android:name="android.intent.category.LAUNCHER" />
+42-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:31:17-77
+42-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:31:27-74
+43            </intent-filter>
+44        </activity>
+45
+46        <!-- アクティビティの定義 -->
+47
+48
+49        <!-- ホーム処理 -->
+50        <activity
+50-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:38:9-142
+51            android:name="inotec.jiji.ui.ContactSelectActivity"
+51-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:38:19-70
+52            android:label="@string/app_name"
+52-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:38:71-103
+53            android:screenOrientation="portrait" />
+53-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:38:104-140
+54        <activity
+54-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:39:9-141
+55            android:name="inotec.jiji.ui.DengonRegistActivity"
+55-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:39:19-69
+56            android:label="@string/app_name"
+56-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:39:70-102
+57            android:screenOrientation="portrait" />
+57-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:39:103-139
+58        <activity
+58-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:40:9-132
+59            android:name="inotec.jiji.ui.SmsActivity"
+59-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:40:19-60
+60            android:label="@string/app_name"
+60-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:40:61-93
+61            android:screenOrientation="portrait" />
+61-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:40:94-130
+62        <activity
+62-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:41:9-138
+63            android:name="inotec.jiji.ui.SmsRegistActivity"
+63-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:41:19-66
+64            android:label="@string/app_name"
+64-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:41:67-99
+65            android:screenOrientation="portrait" />
+65-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:41:100-136
+66        <activity
+66-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:42:9-139
+67            android:name="inotec.jiji.ui.WordSelectActivity"
+67-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:42:19-67
+68            android:label="@string/app_name"
+68-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:42:68-100
+69            android:screenOrientation="portrait" />
+69-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:42:101-137
+70        <activity
+70-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:43:9-137
+71            android:name="inotec.jiji.ui.WordListActivity"
+71-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:43:19-65
+72            android:label="@string/app_name"
+72-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:43:66-98
+73            android:screenOrientation="portrait" />
+73-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:43:99-135
+74        <activity
+74-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:44:9-139
+75            android:name="inotec.jiji.ui.WordRegistActivity"
+75-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:44:19-67
+76            android:label="@string/app_name"
+76-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:44:68-100
+77            android:screenOrientation="portrait" />
+77-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:44:101-137
+78
+79        <!-- ダイアログ -->
+80        <activity
+80-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:47:9-147
+81            android:name="inotec.jiji.ui.dialog.DialogDial"
+81-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:47:19-66
+82            android:label="@string/dialog_calculator"
+82-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:47:67-108
+83            android:screenOrientation="portrait" />
+83-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:47:109-145
+84        <activity
+84-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:48:9-189
+85            android:name="inotec.jiji.ui.dialog.DialogTenkey"
+85-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:48:19-68
+86            android:label="@string/dialog_tenkey"
+86-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:48:69-106
+87            android:screenOrientation="portrait"
+87-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:48:151-187
+88            android:theme="@android:style/Theme.Dialog" />
+88-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:48:107-150
+89        <activity
+89-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:49:9-153
+90            android:name="inotec.jiji.ui.dialog.DialogCalendar"
+90-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:49:19-70
+91            android:screenOrientation="portrait"
+91-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:49:115-151
+92            android:theme="@android:style/Theme.Dialog" />
+92-->C:\Users\user\AndroidStudioProjects\jiji\app\src\main\AndroidManifest.xml:49:71-114
+93    </application>
+94
+95</manifest>

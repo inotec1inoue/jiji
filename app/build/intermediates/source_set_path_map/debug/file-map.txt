@@ -1,0 +1,8 @@
+inotec.jiji.app-pngs-0 C:\Users\user\AndroidStudioProjects\jiji\app\build\generated\res\pngs\debug
+inotec.jiji.app-resValues-1 C:\Users\user\AndroidStudioProjects\jiji\app\build\generated\res\resValues\debug
+inotec.jiji.app-rs-2 C:\Users\user\AndroidStudioProjects\jiji\app\build\generated\res\rs\debug
+inotec.jiji.app-mergeDebugResources-3 C:\Users\user\AndroidStudioProjects\jiji\app\build\intermediates\incremental\debug\mergeDebugResources\merged.dir
+inotec.jiji.app-mergeDebugResources-4 C:\Users\user\AndroidStudioProjects\jiji\app\build\intermediates\incremental\debug\mergeDebugResources\stripped.dir
+inotec.jiji.app-merged_res-5 C:\Users\user\AndroidStudioProjects\jiji\app\build\intermediates\merged_res\debug
+inotec.jiji.app-debug-6 C:\Users\user\AndroidStudioProjects\jiji\app\src\debug\res
+inotec.jiji.app-main-7 C:\Users\user\AndroidStudioProjects\jiji\app\src\main\res

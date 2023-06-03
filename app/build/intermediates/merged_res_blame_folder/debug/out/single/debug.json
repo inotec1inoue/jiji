@@ -1,0 +1,266 @@
+[
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable-hdpi_jiji.png.flat",
+        "source": "inotec.jiji.app-main-7:/drawable-hdpi/jiji.png"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_button_job2.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/button_job2.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/layout_dialog_choice.xml.flat",
+        "source": "inotec.jiji.app-main-7:/layout/dialog_choice.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_button_fuka.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/button_fuka.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/layout_activity_main.xml.flat",
+        "source": "inotec.jiji.app-main-7:/layout/activity_main.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable-mdpi_icon.png.flat",
+        "source": "inotec.jiji.app-main-7:/drawable-mdpi/icon.png"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_map.png.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/map.png"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/layout_activity_home.xml.flat",
+        "source": "inotec.jiji.app-main-7:/layout/activity_home.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/layout_dialog_custom.xml.flat",
+        "source": "inotec.jiji.app-main-7:/layout/dialog_custom.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_edit_selector.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/edit_selector.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_tab_widget_text.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/tab_widget_text.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_background_bottom.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/background_bottom.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/layout_listview_radio.xml.flat",
+        "source": "inotec.jiji.app-main-7:/layout/listview_radio.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/layout_activity_smsshow.xml.flat",
+        "source": "inotec.jiji.app-main-7:/layout/activity_smsshow.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_background_regist.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/background_regist.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/layout_dialog_dial.xml.flat",
+        "source": "inotec.jiji.app-main-7:/layout/dialog_dial.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_calendar_siage.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/calendar_siage.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/layout_dialog_edit.xml.flat",
+        "source": "inotec.jiji.app-main-7:/layout/dialog_edit.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_selector_true.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/selector_true.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/layout_activity_contactselect.xml.flat",
+        "source": "inotec.jiji.app-main-7:/layout/activity_contactselect.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_xbutton_exit.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/xbutton_exit.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_bg_title.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/bg_title.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/layout_calendar.xml.flat",
+        "source": "inotec.jiji.app-main-7:/layout/calendar.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_pushpin.png.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/pushpin.png"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_background.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/background.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_bg_dialog.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/bg_dialog.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_calendar_today.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/calendar_today.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_button_job.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/button_job.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_border_edit.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/border_edit.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable-ldpi_icon.png.flat",
+        "source": "inotec.jiji.app-main-7:/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_button_blue.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/button_blue.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_happy.png.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/happy.png"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_button_dial.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/button_dial.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/layout_row_day.xml.flat",
+        "source": "inotec.jiji.app-main-7:/layout/row_day.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_pin.png.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/pin.png"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/layout_activity_listprint.xml.flat",
+        "source": "inotec.jiji.app-main-7:/layout/activity_listprint.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_border_text.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/border_text.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/layout_dialog_multiedit.xml.flat",
+        "source": "inotec.jiji.app-main-7:/layout/dialog_multiedit.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/layout_tenkey.xml.flat",
+        "source": "inotec.jiji.app-main-7:/layout/tenkey.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable-hdpi_hanoi_n.png.flat",
+        "source": "inotec.jiji.app-main-7:/drawable-hdpi/hanoi_n.png"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/layout_activity_wordselect.xml.flat",
+        "source": "inotec.jiji.app-main-7:/layout/activity_wordselect.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_xbutton_dial.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/xbutton_dial.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_button_exit.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/button_exit.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_border.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/border.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_background_top.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/background_top.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_pin6.png.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/pin6.png"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_current_location.png.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/current_location.png"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_button_ok.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/button_ok.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_dail_button.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/dail_button.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_shape_button_corners.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/shape_button_corners.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_phone.png.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/phone.png"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/layout_radio_view_item.xml.flat",
+        "source": "inotec.jiji.app-main-7:/layout/radio_view_item.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/layout_listview_check.xml.flat",
+        "source": "inotec.jiji.app-main-7:/layout/listview_check.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_button_top.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/button_top.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_button_cancel.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/button_cancel.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_button_menu.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/button_menu.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_selector_false.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/selector_false.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_background_button.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/background_button.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_button_bottom.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/button_bottom.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/layout_activity_wordregist.xml.flat",
+        "source": "inotec.jiji.app-main-7:/layout/activity_wordregist.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/layout_listview_footer.xml.flat",
+        "source": "inotec.jiji.app-main-7:/layout/listview_footer.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_button_red.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/button_red.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_mainmenu.png.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/mainmenu.png"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/layout_activity_contactshow.xml.flat",
+        "source": "inotec.jiji.app-main-7:/layout/activity_contactshow.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/layout_check_view_item.xml.flat",
+        "source": "inotec.jiji.app-main-7:/layout/check_view_item.xml"
+    },
+    {
+        "merged": "inotec.jiji.app-merged_res-5:/drawable_button_gray.xml.flat",
+        "source": "inotec.jiji.app-main-7:/drawable/button_gray.xml"
+    }
+]

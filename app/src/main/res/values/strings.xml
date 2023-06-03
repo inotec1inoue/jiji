@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources
+	xmlns:tools="http://schemas.android.com/tools"
+  	tools:ignore="MissingTranslation" >
+
+    <string name="app_id">jiji</string>
+    <string name="app_name">じじホン</string>
+    <string name="version">Ver22.04.20</string>
+    <string name="app_no">0</string>
+    <string name="required">必須</string>
+
+<!-- メイン -->
+    <string name="home_contact">連絡先</string>
+    <string name="home_word">文章</string>
+    <string name="activity_wordregist">文章登録</string>
+    <string name="activity_dengonregist">伝言登録</string>
+
+<!-- ダイアログ -->
+    <string name="dialog_datepicker">日付選択</string>
+    <string name="dialog_timepicker">時間選択</string>
+    <string name="dialog_calculator">電卓</string>
+    <string name="dialog_tenkey">テンキー</string>
+    <string name="dialog_calender">カレンダー</string>
+    <string name="dialog_dial">ダイヤル</string>
+
+    <string name="contact_id">ID</string>
+    <string name="simei">氏名　</string>
+    <string name="kana">かな　</string>
+    <string name="tel">電話　</string>
+    <string name="email">メール</string>
+
+    <string name="word_name">文章</string>
+
+    <string name="data_loading">データを取得しています</string>
+
+    <string name="menu_new">新規</string>
+	<string name="menu_save">とうろく</string>
+	<string name="menu_edit">編集</string>
+	<string name="menu_print">印刷</string>
+	<string name="menu_delete">けす</string>
+	<string name="menu_search">検索</string>
+    <string name="menu_prev">まえ</string>
+    <string name="menu_next">つぎ</string>
+	<string name="menu_list">えらぶ</string>
+	<string name="menu_input">入力</string>
+   	<string name="menu_cancel">もどる</string>
+	<string name="menu_add">追加</string>
+	<string name="menu_revert">戻る</string>
+    <string name="menu_tel">でんわ</string>
+	<string name="menu_sms">でんごん</string>
+	<string name="menu_send">おくる</string>
+
+    <string name="inputed">入力しました</string>
+	<string name="canceled">中止しました</string>
+    <string name="saved">登録しました</string>
+	<string name="deleted">削除しました</string>
+    <string name="executed">実行しました</string>
+	<string name="title_confirm">確認</string>
+	<string name="confirm_save">登録してよろしいですか？</string>
+	<string name="confirm_delete">削除してよろしいですか？</string>
+	<string name="confirm_cancel">中止してよろしいですか？</string>
+	<string name="confirm_excute">実行してよろしいですか？</string>
+	<string name="error_required">必須項目を入力してください</string>
+    <string name="input_name">名称を入力してください</string>
+
+    <string name="select_target">対象を選択してください</string>
+    <string name="cannot_get_address">住所の取得に失敗しました</string>
+
+    <string name="date_widgets_example_dateDisplay_text"></string>
+    <string name="date_widgets_example_pickTime_text">時間指定</string>
+    <string name="date_widgets_example_pickDate_text">日付指定</string>
+
+    <!-- calendar -->
+    <string name="prev_st">＜</string>
+    <string name="next_st">＞</string>
+
+    <string name="dow_sun">日</string>
+    <string name="dow_mon">月</string>
+    <string name="dow_tue">火</string>
+    <string name="dow_wed">水</string>
+    <string name="dow_thu">木</string>
+    <string name="dow_fri">金</string>
+    <string name="dow_sat">土</string>
+
+    <!-- calculator -->
+    <string name="dow_star">*</string>
+    <string name="dow_sharp">#</string>
+    <string name="dow_clr">C</string>
+    <string name="dow_del">←</string>
+    <string name="dow_sign">±</string>
+    <string name="dow_plus">＋</string>
+    <string name="dow_minus">ー</string>
+    <string name="dow_mul">×</string>
+    <string name="dow_div">÷</string>
+    <string name="dow_enter">＝</string>
+    <string name="dow_1">1</string>
+    <string name="dow_2">2</string>
+    <string name="dow_3">3</string>
+    <string name="dow_4">4</string>
+    <string name="dow_5">5</string>
+    <string name="dow_6">6</string>
+    <string name="dow_7">7</string>
+    <string name="dow_8">8</string>
+    <string name="dow_9">9</string>
+    <string name="dow_0">0</string>
+    <string name="dow_00">00</string>
+
+</resources>

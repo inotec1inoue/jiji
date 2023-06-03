@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      android:versionCode="1"
+      android:versionName="1.0" package="inotec.jiji">
+
+    <!-- バイブレーショントへのアクセス権限 -->
+	<uses-permission android:name="android.permission.VIBRATE" />
+    <!-- 連絡帳へのアクセス権限 -->
+	<uses-permission android:name="android.permission.READ_CONTACTS" />
+    <!-- 電話番号取得へのアクセス権限 -->
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />
+	<uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+    <!-- SMSへのアクセス権限 -->
+	<uses-permission android:name="android.permission.SEND_SMS" />
+
+    <!-- アプリケーションの定義 　デフォルトでアイコンとアプリケーション名が定義されています-->
+    <application android:label="@string/app_name"
+        android:theme="@android:style/Theme.Light" android:icon="@drawable/jiji">
+
+    	<!-- GoogleMapのライブラリの利用を宣言 -->
+    	<uses-library android:name="com.google.android.maps" />
+
+    	<!-- メインメニューアクティビティの定義 -->
+        <activity android:name="inotec.jiji.ui.ContactShowActivity" android:label="@string/app_name" android:screenOrientation="portrait">
+
+            <!-- インテントのフィルタ設定 -->
+            <intent-filter>
+            	<!-- アクティビティをアプリケーションのメイン(開始画面) -->
+                <action android:name="android.intent.action.MAIN" />
+                <!-- ホーム画面から表示されるランチャーへの表示 -->
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- アクティビティの定義 -->
+
+		<!-- ホーム処理 -->
+        <activity android:name="inotec.jiji.ui.ContactSelectActivity" android:label="@string/app_name" android:screenOrientation="portrait"/>
+        <activity android:name="inotec.jiji.ui.DengonRegistActivity" android:label="@string/app_name" android:screenOrientation="portrait"/>
+        <activity android:name="inotec.jiji.ui.SmsActivity" android:label="@string/app_name" android:screenOrientation="portrait"/>
+        <activity android:name="inotec.jiji.ui.SmsRegistActivity" android:label="@string/app_name" android:screenOrientation="portrait"/>
+        <activity android:name="inotec.jiji.ui.WordSelectActivity" android:label="@string/app_name" android:screenOrientation="portrait"/>
+        <activity android:name="inotec.jiji.ui.WordListActivity" android:label="@string/app_name" android:screenOrientation="portrait"/>
+        <activity android:name="inotec.jiji.ui.WordRegistActivity" android:label="@string/app_name" android:screenOrientation="portrait"/>
+
+        <!-- ダイアログ -->
+        <activity android:name="inotec.jiji.ui.dialog.DialogDial" android:label="@string/dialog_calculator" android:screenOrientation="portrait"/>
+        <activity android:name="inotec.jiji.ui.dialog.DialogTenkey" android:label="@string/dialog_tenkey" android:theme="@android:style/Theme.Dialog" android:screenOrientation="portrait"/>
+        <activity android:name="inotec.jiji.ui.dialog.DialogCalendar" android:theme="@android:style/Theme.Dialog" android:screenOrientation="portrait"/>
+
+        </application>
+
+    <!-- SDKの対応バージョン -->
+    <uses-sdk android:minSdkVersion="8" />
+</manifest>

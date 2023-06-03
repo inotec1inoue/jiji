@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+	<LinearLayout
+    	android:id="@+id/top"
+    	android:layout_width="match_parent"
+    	android:layout_height="50dp"
+    	android:background="@drawable/background_bottom"
+    	>
+	    <Button
+			android:id="@+id/revert"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_margin="@dimen/padding_small"
+			android:text="@string/menu_revert"
+			android:textColor="@color/black" 
+			android:textSize="@dimen/text_size_medium"
+			android:background="@drawable/button_exit" 
+		/>
+		<TextView
+			android:id="@+id/title"
+			android:text="タイトル"
+      		android:layout_weight="1"
+			android:textSize="@dimen/text_size_medium"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent" 
+			android:gravity="center" 
+			android:textColor="@color/white"
+		/>
+	    <Button
+			android:id="@+id/print"
+			android:layout_width="wrap_content"
+			android:layout_height="match_parent"
+			android:layout_margin="@dimen/padding_small"
+			android:text="@string/menu_print"
+			android:textColor="@color/black" 
+			android:textSize="@dimen/text_size_medium"
+			android:background="@drawable/button_exit" 
+		/>
+   	</LinearLayout>
+
+	<!-- 一覧表示用リスト -->
+	<ListView
+		android:id="@+id/list"
+		android:background="@drawable/background"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"/>
+
+</LinearLayout>

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:background="@drawable/background"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+	<LinearLayout
+    	android:id="@+id/top"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:background="@drawable/background_top"
+		android:orientation="vertical"
+    	>
+		<TextView
+			android:id="@+id/time"
+			android:text="12:00"
+			android:textSize="@dimen/text_size_big2"
+			android:layout_marginLeft="10dip"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="left"
+			android:textColor="@color/white"
+		/>
+		<TextView
+			android:id="@+id/day"
+			android:text="2020年01月01日"
+			android:textSize="@dimen/text_size_large"
+			android:layout_marginRight="10dip"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:gravity="right"
+			android:textColor="@color/white"
+		/>
+	</LinearLayout>
+
+    <LinearLayout
+		android:orientation="vertical"
+		android:layout_marginTop="10dip"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+	    android:layout_weight="1"
+		>
+		<!-- 連絡先コード -->
+		<TextView
+			android:id="@+id/contact_idLabel"
+			android:text="@string/contact_id"
+			android:textSize="@dimen/text_size_medium"
+			android:gravity="right"
+			android:layout_marginRight="10dip"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" />
+
+        <!-- 氏名 -->
+		<TextView
+			android:id="@+id/simeiLabel"
+			android:text="@string/simei"
+			android:textSize="@dimen/text_size_big2"
+			android:layout_marginLeft="10dip"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<!-- ふりがな -->
+		<TextView
+			android:id="@+id/kanaLabel"
+			android:text="@string/kana"
+		    android:textSize="@dimen/text_size_medium"
+			android:layout_marginLeft="10dip"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<!-- 電話 -->
+		<TextView
+			android:id="@+id/telLabel"
+			android:text="@string/tel"
+			android:textSize="@dimen/text_size_big2"
+			android:gravity="center"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:layout_marginBottom="5dip"/>
+
+	 	<!-- メモ -->
+		<TextView
+			android:id="@+id/dengon_nameText"
+			android:textSize="@dimen/text_size_big"
+			android:layout_marginTop="10dip"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+			android:background="@drawable/border"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" />
+		
+		<Space android:layout_width="match_parent"
+        	android:layout_height="25dip"/>
+
+		<LinearLayout
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:layout_alignParentBottom="true"
+	    	>
+			<Button
+				android:id="@+id/ButtonList"
+				android:text="@string/menu_list"
+	      		android:layout_width="match_parent"
+	      		android:layout_height="match_parent"
+	      		android:layout_weight="1"
+	      		android:layout_margin="@dimen/padding_small"
+				android:textColor="@color/white"
+	            android:textSize="@dimen/text_size_big"
+				android:background="@drawable/button_job2"
+			/>
+		    <Button
+				android:id="@+id/ButtonPrev"
+				android:text="@string/menu_prev"
+	      		android:layout_width="match_parent"
+	      		android:layout_height="match_parent"
+	      		android:layout_weight="1"
+	      		android:layout_margin="@dimen/padding_small"
+				android:textColor="@color/white"
+	            android:textSize="@dimen/text_size_big"
+				android:background="@drawable/button_job"
+			/>
+			<Button
+				android:id="@+id/ButtonNext"
+				android:text="@string/menu_next"
+		    	android:layout_width="match_parent"
+	      		android:layout_height="match_parent"
+	      		android:layout_weight="1"
+	      		android:layout_margin="@dimen/padding_small"
+				android:textColor="@color/white"
+	            android:textSize="@dimen/text_size_big"
+				android:background="@drawable/button_job"
+			/>
+		</LinearLayout>
+
+	</LinearLayout>
+
+	<LinearLayout
+    	android:id="@+id/bottom"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true"
+    	android:background="@color/silver"
+    	>
+		<Button
+			android:id="@+id/Button01"
+      		android:layout_width="match_parent"
+      		android:layout_height="match_parent"
+      		android:layout_weight="1"
+      		android:layout_margin="@dimen/padding_small"
+			android:text="@string/menu_tel"
+			android:textColor="@color/white"
+            android:textSize="@dimen/text_size_big"
+			android:background="@drawable/button_cancel"
+		/>
+		<Button
+			android:id="@+id/Button02"
+	    	android:layout_width="match_parent"
+      		android:layout_height="match_parent"
+      		android:layout_weight="1"
+      		android:layout_margin="@dimen/padding_small"
+			android:text="@string/menu_sms"
+			android:textColor="@color/white"
+            android:textSize="@dimen/text_size_big"
+			android:background="@drawable/button_ok"
+		/>
+	</LinearLayout>
+
+</LinearLayout>

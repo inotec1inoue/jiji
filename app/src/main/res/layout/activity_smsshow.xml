@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:background="@drawable/background"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+
+    <LinearLayout
+		android:orientation="vertical"
+		android:layout_marginTop="10dip"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+	    android:layout_weight="1"
+		>
+
+	    <!-- 氏名 -->
+		<TextView
+			android:id="@+id/simeiLabel"
+			android:text="@string/simei"
+			android:textSize="@dimen/text_size_big2"
+			android:layout_marginLeft="10dip"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content" />
+
+		<Space android:layout_width="match_parent"
+        	android:layout_height="25dip"/>
+		
+		<!-- メモ -->
+		<TextView
+			android:id="@+id/word_nameText"
+			android:textSize="@dimen/text_size_big"
+			android:layout_marginTop="10dip"
+			android:layout_marginLeft="10dip"
+			android:layout_marginRight="10dip"
+			android:background="@drawable/border"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content" />
+
+		<Space android:layout_width="match_parent"
+        	android:layout_height="25dip"/>
+
+		<LinearLayout
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_alignParentBottom="true"
+		    >
+			<Button
+				android:id="@+id/ButtonList"
+	      		android:layout_width="match_parent"
+	      		android:layout_height="match_parent"
+	      		android:layout_weight="1"
+	      		android:layout_margin="@dimen/padding_small"
+				android:text="@string/menu_list"
+				android:textColor="@color/white"
+	            android:textSize="@dimen/text_size_big"
+				android:background="@drawable/button_job2"
+			/>
+			<Button
+				android:id="@+id/ButtonPrev"
+	      		android:layout_width="match_parent"
+	      		android:layout_height="match_parent"
+	      		android:layout_weight="1"
+	      		android:layout_margin="@dimen/padding_small"
+				android:text="@string/menu_prev"
+				android:textColor="@color/white"
+	            android:textSize="@dimen/text_size_big"
+				android:background="@drawable/button_job"
+			/>
+			<Button
+				android:id="@+id/ButtonNext"
+	      		android:layout_width="match_parent"
+	      		android:layout_height="match_parent"
+	      		android:layout_weight="1"
+	      		android:layout_margin="@dimen/padding_small"
+				android:text="@string/menu_next"
+				android:textColor="@color/white"
+	            android:textSize="@dimen/text_size_big"
+				android:background="@drawable/button_job"
+			/>
+		</LinearLayout>
+	</LinearLayout>
+
+	<LinearLayout
+    	android:id="@+id/bottom"
+    	android:layout_width="match_parent"
+    	android:layout_height="wrap_content"
+    	android:layout_alignParentBottom="true"
+    	android:background="@color/silver"
+    	>
+		<Button
+			android:id="@+id/cancel"
+	    	android:layout_width="match_parent"
+      		android:layout_height="match_parent"
+      		android:layout_weight="1"
+      		android:layout_margin="@dimen/padding_small"
+			android:text="@string/menu_cancel"
+			android:textColor="@color/white"
+            android:textSize="@dimen/text_size_big"
+			android:background="@drawable/button_gray"
+		/>
+	    <Button
+			android:id="@+id/send"
+      		android:layout_width="match_parent"
+      		android:layout_height="match_parent"
+      		android:layout_weight="1"
+      		android:layout_margin="@dimen/padding_small"
+			android:text="@string/menu_send"
+			android:textColor="@color/white"
+            android:textSize="@dimen/text_size_big"
+			android:background="@drawable/button_ok"
+		/>
+	</LinearLayout>
+
+</LinearLayout>

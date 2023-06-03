@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/jiji/app/src/main/res/drawable/button_cancel.xml" value="0.1785" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/jiji/app/src/main/res/drawable/button_fuka.xml" value="0.1785" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/jiji/app/src/main/res/drawable/button_gray.xml" value="0.1785" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/jiji/app/src/main/res/drawable/calendar_siage.xml" value="0.1785" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/jiji/app/src/main/res/drawable/calendar_today.xml" value="0.1785" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/jiji/app/src/main/res/drawable/dail_button.xml" value="0.1785" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/jiji/app/src/main/res/drawable/selector_false.xml" value="0.1785" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/jiji/app/src/main/res/drawable/selector_true.xml" value="0.1785" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/jiji/app/src/main/res/drawable/tab_widget_text.xml" value="0.1785" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/jiji/app/src/main/res/drawable/xbutton_dial.xml" value="0.1785" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/jiji/app/src/main/res/drawable/xbutton_exit.xml" value="0.1785" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/jiji/app/src/main/res/layout/activity_contactselect.xml" value="0.25769927536231885" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/jiji/app/src/main/res/layout/activity_contactshow.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/jiji/app/src/main/res/layout/activity_home.xml" value="0.14792299898682879" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/jiji/app/src/main/res/layout/activity_main.xml" value="0.14792299898682879" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/jiji/app/src/main/res/layout/activity_smsshow.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/jiji/app/src/main/res/layout/activity_wordregist.xml" value="0.25769927536231885" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/jiji/app/src/main/res/layout/dialog_edit.xml" value="0.25" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/jiji/app/src/main/res/layout/listview_check.xml" value="0.25769927536231885" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

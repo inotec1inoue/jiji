@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@color/default_background">
+
+    <LinearLayout
+        android:id="@+id/top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <Button
+            android:id="@+id/prev"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_margin="@dimen/padding_small" 
+			android:minWidth="@dimen/day_size"
+			android:minHeight="@dimen/day_size"
+            android:text="@string/prev_st"
+			android:textColor="@color/black" 
+			android:textSize="@dimen/text_size_medium" 
+			android:background="@drawable/button_fuka" 
+            />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="タイトル"
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_size_medium" 
+            />
+
+        <Button
+            android:id="@+id/next"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+			android:layout_margin="@dimen/padding_small" 
+			android:minWidth="@dimen/day_size"
+			android:minHeight="@dimen/day_size"
+            android:text="@string/next_st"
+			android:textColor="@color/black" 
+			android:textSize="@dimen/text_size_medium" 
+			android:background="@drawable/button_fuka" 
+            />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:orientation="horizontal" android:layout_height="wrap_content">
+        <TableLayout android:layout_width="match_parent" android:layout_height="match_parent">
+            
+			<!-- テンキー -->
+			<TableRow android:layout_weight="1" android:layout_height="0dip" android:layout_width="match_parent">
+				
+				<TextView
+				    android:id="@+id/TextSun"
+				    android:layout_width="0dip"
+				    android:layout_height="match_parent"
+				    android:layout_gravity="center_vertical|center_horizontal"
+				    android:layout_weight="1"
+				    android:gravity="center_vertical|center_horizontal"
+				    android:minHeight="@dimen/day_size"
+				    android:minWidth="@dimen/day_size"
+				    android:text="@string/dow_sun"
+				    android:textSize="@dimen/text_size_medium" />
+
+				<TextView
+				    android:id="@+id/TextMon"
+				    android:layout_width="0dip"
+				    android:layout_height="match_parent"
+				    android:layout_gravity="center_vertical|center_horizontal"
+				    android:layout_weight="1"
+				    android:gravity="center_vertical|center_horizontal"
+				    android:minHeight="@dimen/day_size"
+				    android:minWidth="@dimen/day_size"
+				    android:text="@string/dow_mon"
+				    android:textSize="@dimen/text_size_medium" />
+
+				<TextView
+				    android:id="@+id/TextTue"
+				    android:layout_width="0dip"
+				    android:layout_height="match_parent"
+				    android:layout_gravity="center_vertical|center_horizontal"
+				    android:layout_weight="1"
+				    android:gravity="center_vertical|center_horizontal"
+				    android:minHeight="@dimen/day_size"
+				    android:minWidth="@dimen/day_size"
+				    android:text="@string/dow_tue"
+				    android:textSize="@dimen/text_size_medium" />
+
+				<TextView
+				    android:id="@+id/TextWed"
+				    android:layout_width="0dip"
+				    android:layout_height="match_parent"
+				    android:layout_gravity="center_vertical|center_horizontal"
+				    android:layout_weight="1"
+				    android:gravity="center_vertical|center_horizontal"
+				    android:minHeight="@dimen/day_size"
+				    android:minWidth="@dimen/day_size"
+				    android:text="@string/dow_wed"
+				    android:textSize="@dimen/text_size_medium" />
+
+				<TextView
+				    android:id="@+id/TextThu"
+				    android:layout_width="0dip"
+				    android:layout_height="match_parent"
+				    android:layout_gravity="center_vertical|center_horizontal"
+				    android:layout_weight="1"
+				    android:gravity="center_vertical|center_horizontal"
+				    android:minHeight="@dimen/day_size"
+				    android:minWidth="@dimen/day_size"
+				    android:text="@string/dow_thu"
+				    android:textSize="@dimen/text_size_medium" />
+
+				<TextView
+				    android:id="@+id/TextFri"
+				    android:layout_width="0dip"
+				    android:layout_height="match_parent"
+				    android:layout_gravity="center_vertical|center_horizontal"
+				    android:layout_weight="1"
+				    android:gravity="center_vertical|center_horizontal"
+				    android:minHeight="@dimen/day_size"
+				    android:minWidth="@dimen/day_size"
+				    android:text="@string/dow_fri"
+				    android:textSize="@dimen/text_size_medium" />
+
+				<TextView
+				    android:id="@+id/TextSat"
+				    android:layout_width="0dip"
+				    android:layout_height="match_parent"
+				    android:layout_gravity="center_vertical|center_horizontal"
+				    android:layout_weight="1"
+				    android:gravity="center_vertical|center_horizontal"
+				    android:minHeight="@dimen/day_size"
+				    android:minWidth="@dimen/day_size"
+				    android:text="@string/dow_sat"
+				    android:textSize="@dimen/text_size_medium" />
+
+			</TableRow>
+
+			<TableRow android:layout_weight="1" android:layout_height="0dip" android:layout_width="match_parent">
+				
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text1"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text2"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text3"/> 
+		      	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text4"/> 
+		      	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text5"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text6"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text7"/> 
+			</TableRow>
+
+			<TableRow android:layout_weight="1" android:layout_height="0dip" android:layout_width="match_parent">
+				
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text8"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text9"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text10"/> 
+		      	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text11"/> 
+		      	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text12"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text13"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text14"/> 
+			</TableRow>
+		
+			<TableRow android:layout_weight="1" android:layout_height="0dip" android:layout_width="match_parent">
+				
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text15"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text16"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text17"/> 
+		      	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text18"/> 
+		      	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text19"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text20"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text21"/> 
+			</TableRow>
+		
+			<TableRow android:layout_weight="1" android:layout_height="0dip" android:layout_width="match_parent">
+				
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text22"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text23"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text24"/> 
+		      	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text25"/> 
+		      	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text26"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text27"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text28"/> 
+			</TableRow>
+		
+			<TableRow android:layout_weight="1" android:layout_height="0dip" android:layout_width="match_parent">
+				
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text29"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text30"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text31"/> 
+		      	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text32"/> 
+		      	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text33"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text34"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text35"/> 
+			</TableRow>
+		
+			<TableRow android:layout_weight="1" android:layout_height="0dip" android:layout_width="match_parent">
+				
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text36"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text37"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text38"/> 
+		      	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text39"/> 
+		      	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text40"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text41"/> 
+		       	<include layout="@layout/row_day" android:layout_weight="1" android:id="@+id/Text42"/> 
+			</TableRow>
+		
+		</TableLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/bottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+	    android:layout_alignParentBottom="true"
+        android:background="@android:drawable/bottom_bar" 
+        >
+
+        <Button
+            android:id="@+id/ok"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+			android:layout_margin="@dimen/padding_small" 
+            android:layout_weight="1"
+            android:text="OK"
+			android:textColor="@color/white" 
+			android:textSize="@dimen/text_size_big"
+			android:background="@drawable/button_ok" 
+            />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+			android:layout_margin="@dimen/padding_small" 
+            android:layout_weight="1"
+            android:text="ｷｬﾝｾﾙ"
+			android:textColor="@color/white" 
+			android:textSize="@dimen/text_size_big"
+			android:background="@drawable/button_cancel" 
+            />
+    </LinearLayout>
+
+</LinearLayout>
